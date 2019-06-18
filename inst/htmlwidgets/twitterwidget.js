@@ -13,9 +13,7 @@ HTMLWidgets.widget({
           twttr.widgets.createTweet(
             x.twid,
             document.getElementById(el.id),
-            {
-              theme: 'light'
-            }
+            x.pars
           );
 
       },

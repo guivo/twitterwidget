@@ -5,11 +5,12 @@
 #' @import htmlwidgets
 #'
 #' @export
-twitterwidget <- function(twid, width = NULL, height = NULL, elementId = NULL) {
+twitterwidget <- function(twid, pars=NULL, width = NULL, height = NULL, elementId = NULL) {
 
   # forward options using x
   x = list(
-    twid = twid
+    twid = twid,
+    pars=pars
   )
 
   # create widget

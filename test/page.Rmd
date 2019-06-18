@@ -32,5 +32,5 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ## Embed tweet
 
 ```{r}
-twitterwidget('1140367928346460166')
+twitterwidget('1140367928346460166', list(align='center',hide_thread=T, converstion='none'))
 ```
