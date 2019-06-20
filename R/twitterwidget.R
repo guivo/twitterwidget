@@ -13,7 +13,7 @@
 #' @param elementId ID of the HTML element
 #'
 #' @examples
-#' twitterwidget('463440424141459456', list(hide_media=T))
+#' twitterwidget('463440424141459456', list(cards='none'))
 #' @import htmlwidgets
 #'
 #' @export

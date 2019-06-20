@@ -25,3 +25,6 @@ Rmd page. The main parameter is the status ID, other parameters will
 be passed to the factory method, according the official documentation:
 https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
 }
+\examples{
+twitterwidget('463440424141459456', list(cards='none'))
+}
