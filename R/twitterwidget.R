@@ -1,6 +1,9 @@
-#' <Add Title>
+#' Create a widget representing a twitter status
 #'
-#' <Add Description>
+#' The method create a widget able to embed a twitter status within a
+#' Rmd page. The main parameter is the status ID, other parameters will
+#' be passed to the factory method, according the official documentation:
+#' https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
 #'
 #' @import htmlwidgets
 #'
@@ -10,7 +13,7 @@ twitterwidget <- function(twid, pars=NULL, width = NULL, height = NULL, elementI
   # forward options using x
   x = list(
     twid = twid,
-    pars=pars
+    pars = pars
   )
 
   # create widget
