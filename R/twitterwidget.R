@@ -5,6 +5,15 @@
 #' be passed to the factory method, according the official documentation:
 #' https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
 #'
+#' @param twid ID of the twitter status, it should be passed as a string
+#' @param pars list() containing the optional parameters passed to request
+#' the rendering of the embedded tweets.
+#' @param width width of the widget
+#' @param height height of the widget
+#' @param elementId ID of the HTML element
+#'
+#' @examples
+#' twitterwidget('463440424141459456', list(hide_media=T))
 #' @import htmlwidgets
 #'
 #' @export

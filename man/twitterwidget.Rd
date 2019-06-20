@@ -7,6 +7,18 @@
 twitterwidget(twid, pars = NULL, width = NULL, height = NULL,
   elementId = NULL)
 }
+\arguments{
+\item{twid}{ID of the twitter status, it should be passed as a string}
+
+\item{pars}{list() containing the optional parameters passed to request
+the rendering of the embedded tweets.}
+
+\item{width}{width of the widget}
+
+\item{height}{height of the widget}
+
+\item{elementId}{ID of the HTML element}
+}
 \description{
 The method create a widget able to embed a twitter status within a
 Rmd page. The main parameter is the status ID, other parameters will
