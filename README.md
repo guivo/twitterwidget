@@ -9,7 +9,7 @@ This package contains a widget able to embed a Twitter status within a dashboard
 ```r
 library(twitterwidget)
 
-optspars = list(align="center")
+optspars <- list(align="center")
 
 twitterwidget('<statusid>', optpars)
 ```
