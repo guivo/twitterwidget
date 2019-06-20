@@ -1,0 +1,38 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(twitterwidget)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+twitterwidget('1128431408874250241', list(align='center', hide_thread=T, conversation='none'))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+twitterwidget('1128431408874250241', list(align='center', hide_thread=T, cards='hidden'))
+```
+

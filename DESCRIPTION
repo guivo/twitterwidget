@@ -3,9 +3,8 @@ Type: Package
 Title: HTML widget rendering a tweet status
 Version: 0.1.0
 Author: Guido Volpi
-Maintainer: Guido Volpi <guido.volpi@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: Guido Volpi <idrivefoxes@gmail.com>
+Description: This package provides
 License: MIT
 Encoding: UTF-8
 LazyData: true
