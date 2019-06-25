@@ -20,7 +20,7 @@ HTMLWidgets.widget({
 
       resize: function(width, height) {
 
-        // TODO: code to re-render the widget with a new size
+        // TODO: currently ignoring resize.
 
       }
 
