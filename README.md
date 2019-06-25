@@ -7,6 +7,10 @@ The main functionality is to allow to render a card representing a twitter statu
 
 ## Installation
 
+```r
+devtools::install_github("guivo/twitterwidget")
+```
+
 ## Usage
 
 ```r
