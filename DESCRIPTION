@@ -2,7 +2,10 @@ Package: twitterwidget
 Type: Package
 Title: Render a Twitter Status in R Markdown Pages
 Version: 0.1.0
-Author: Guido Volpi
+Author@R: person("Guido", "Volpi", email="idrivefoxes@gmail.com",
+  role=c("aut", "cre"))
+URL: https://github.com/guivo/twitterwidget
+BugReports: https://github.com/guivo/twitterwidget/issues
 Maintainer: Guido Volpi <idrivefoxes@gmail.com>
 Description: Include twitter status widget in HTML pages created
   using R markdown. The package allows to ambed a Twitter cards 
