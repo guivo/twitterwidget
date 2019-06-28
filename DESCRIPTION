@@ -7,10 +7,10 @@ Authors@R: person("Guido", "Volpi", email="idrivefoxes@gmail.com",
 URL: https://github.com/guivo/twitterwidget
 BugReports: https://github.com/guivo/twitterwidget/issues
 Maintainer: Guido Volpi <idrivefoxes@gmail.com>
-Description: Include twitter status widget in HTML pages created
-  using R markdown. The package allows to ambed a Twitter cards 
-  rendering a specific status in your documents. The target are
-  regular HTML pages or dashboards.
+Description: Include the twitter status widget in HTML pages created
+  using R markdown. The package uses the Twitter javascript APIs to
+  embed in your document Twitter cards associated to specific statuses.
+  The main targets are regular HTML pages or dashboards.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
