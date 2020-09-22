@@ -40,5 +40,5 @@ a more complete browser to check the result.
 
 ## Maintenance Status
 
-The package is not under active development but the developer but in case of issue fixes can be
+The package is not under active development but the developer is alive, in case of issues fixes can be
 applied.
