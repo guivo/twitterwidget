@@ -37,3 +37,8 @@ in the region of the layout controlled by the block.
 
 The javascript code doesn't properly render the content using the RStudio viewer, it is required to use
 a more complete browser to check the result.
+
+## Maintenance Status
+
+The package is not under active development but the developer but in case of issue fixes can be
+applied.
